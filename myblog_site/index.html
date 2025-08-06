@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog website</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/script.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-head">
+        <div class="main-head-logo">
+          <img src="./assets/images/logo.svg" alt="" />
+        </div>
+        <div class="main-head-sub">
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#topics">Topics</a></li>
+            <li><a href="#posts">Featured Posts</a></li>
+            <li><a href="#recentpost">Recent Posts</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+
+          <div class="btn">
+            <button id="EmailBtn">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero section -->
+    <div class="Heros" id="Home">
+      <div class="Hero">
+        <h5>Hello everyone</h5>
+
+        <h1>I'm <span>MayorTech</span></h1>
+
+        <div class="Hero-p">
+          <p>
+            I bring you the news, trends on techs, sports and adventures, get
+            updated on what is trending - your Entertainment hub
+          </p>
+
+          <div class="Hero-input">
+            <div class="Hero-input-1">
+              <input id="email" type="email" placeholder="Type your Email Here" />
+              <button id="EmailBtn">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="Hero-image">
+        <img src="assets/images/hero-banner.png" alt="Hero-image" />
+      </div>
+      <div class="pattern">
+        <img width="20px" src="./assets/images/pattern-2.svg" alt="" />
+      </div>
+      <div class="pattern1">
+        <img src="./assets/images/pattern-3.svg" alt="star image" />
+      </div>
+    </div>
+    <!-- Shadow background-->
+    <div class="shadow">
+      <img src="./assets/images/shadow-2.svg" alt="shadow image" />
+    </div>
+    <div class="shadow1">
+      <img src="./assets/images/shadow-2.svg" alt="shadow image" />
+    </div>
+    <!-- Pattern -->
+    <div class="topics" id="topics">
+      <!-- Topics -->
+      <div class="topic">
+        <div class="topic-p">
+          <h2>Hot topics</h2>
+          <p>
+            Don't miss out on the latest news about Travel tips, Hotels review,
+            Food guide...
+          </p>
+          <div class="topic-btn">
+            <button id="btn-back">&#10094</button>
+            <button id="btn-forward">&#10095</button>
+          </div>
+        </div>
+        <div class="topic-sub">
+          <div class="topic-sub-container">
+          <div class="topic-sub-img1">
+            <img   src="./assets/images/topic-1.png" alt="Sport image" />
+            <div class="topic-sub-img-title">
+              <h2>Sport</h2>
+              <p>38 Articles</p>
+            </div>
+          </div>
+          <div  class="topic-sub-img2">
+            <img src="./assets/images/topic-2.png" alt="Travel image" />
+            <div class="topic-sub-img-title">
+              <h2>Travel</h2>
+              <p>63 Articles</p>
+            </div>
+          </div>
+          <div class="topic-sub-img3">
+            <img src="./assets/images/topic-3.png" alt="" />
+            <div class="topic-sub-img-title">
+              <h2>Design</h2>
+              <p>78 Articles</p>
+            </div>
+          </div>
+          <div class="topic-sub-img4">
+            <img  src="./assets/images/topic-4.png" alt="" />
+            <div class="topic-sub-img-title">
+              <h2>Movie</h2>
+              <p>123 Articles</p>
+            </div>
+          </div>
+          <div class="topic-sub-img4">
+            <img src="./assets/images/topic-5.png" alt="" />
+            <div class="topic-sub-img-title">
+              <h2>Mountain</h2>
+              <p>30 Articles</p>
+            </div>
+          </div>
+          <div class="topic-sub-img4">
+            <img src="./assets/images/insta-post-1.png" alt="" />
+            <div class="topic-sub-img-title">
+              <h2>Shanghai</h2>
+              <p>23 Articles</p>
+            </div>
+          </div>
+          <div class="topic-sub-img4">
+            <img src="./assets/images/insta-post-2.png" alt="" />
+            <div class="topic-sub-img-title">
+              <h2>Desert</h2>
+              <p>110 Articles</p>
+            </div>
+          </div>
+          <div class="topic-sub-img4">
+            <img src="./assets/images/insta-post-3.png" alt="" />
+            <div class="topic-sub-img-title">
+              <h2>City</h2>
+              <p>120 Articles</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Editor's Part -->
+    <div class="editors" id="posts">
+      <div class="editor">
+        <div class="editor-p">
+        <h1>Editor's picked</h1>
+        <p>Featured and highly rated articles</p>
+        </div>
+        <div class="editor-sub">
+          <div class="editor-sub-img-pack1">
+            <div class="editor-sub-img1">
+              <img src="./assets/images/featured-1.png" width="100%" />
+              <div class="editor-sub-img3-title">
+                <p>#Travel #Lifestyle</p>
+                <div class="editor-sub-span">
+                <span
+                  ><ion-icon
+                    name="time-outline"
+                    width="20px"
+                    aria-hidden="true"
+                  ></ion-icon
+                  >6 mins read</span
+                >
+                </div>
+              </div>
+              <h3>Self-observation is the first step of inner unfolding</h3>
+              <div class="editor-sub-img-tag">
+                <img src="./assets/images/tag5.png" alt="" />
+                <div class="editor-sub-img-tag-p">
+                  <h4>Esther</h4>
+                  <p>25 July 2025</p>
+                </div>
+                <div class="editor-sub-img-tag-date">
+                  <p>Read more</p>
+                </div>
+              </div>
+            </div>
+            <div class="editor-sub-img2">
+              <img src="./assets/images/featured-2.png" alt="" width="100%" />
+              <div class="editor-sub-img3-title">
+                <p>#Design #Movie</p>
+                <div class="editor-sub-span">
+                <span><ion-icon name="time-outline"></ion-icon>6 mins read</span>
+                </div>
+              </div>
+              <h3>Self-observation is the first step of inner unfolding</h3>
+              <div class="editor-sub-img-tag">
+                <img class="tag-img" src="./assets/images/tag4.png" alt="" />
+                <div class="editor-sub-img-tag-p">
+                  <h4>Joseph</h4>
+                  <p>15 July 2022</p>
+                </div>
+                <div class="editor-sub-img-tag-date">
+                  <p>Read more</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="editor-sub-img-pack">
+            <div class="editor-sub-img3">
+              <img src="./assets/images/featured-3.png" width="100%" alt="" />
+              <div class="editor-sub-img3-title1">
+                <p>#Design #Movie</p>
+                <div class="editor-sub-span">
+                <span><ion-icon name="time-outline"></ion-icon>6 mins read</span>
+                </div>
+              </div>
+              <h3>Self-observation is the first step of inner unfolding</h3>
+              <div class="editor-sub-img-tag1">
+                <img src="./assets/images/tag3.png" alt="" />
+                <div class="editor-sub-img-tag-p">
+                  <h4>Alex</h4>
+                  <p>1 Aug 2022</p>
+                </div>
+                <div class="editor-sub-img-tag-date1">
+                  <p>Read more</p>
+                </div>
+              </div>
+            </div>
+            <div class="editor-sub-img4">
+              <img src="./assets/images/featured-4.png" alt="" width="100%" />
+              <div class="editor-sub-img3-title1">
+                <p>#Design #Movie</p>
+                <div class="editor-sub-span">
+                <span><ion-icon name="time-outline"></ion-icon>6 mins read</span>
+                </div>
+              </div>
+              <h3>Self-observation is the first step of inner unfolding</h3>
+              <div class="editor-sub-img-tag1">
+                <img src="./assets/images/tag2.png" alt="" />
+                <div class="editor-sub-img-tag-p">
+                  <h4>Kehinde</h4>
+                  <p>27 April 2025</p>
+                </div>
+                <div class="editor-sub-img-tag-date1">
+                  <p>Read more</p>
+                </div>
+              </div>
+            </div>
+            <div class="editor-sub-img5">
+              <img src="./assets/images/featured-5.png" alt="" width="100%" />
+              <div class="editor-sub-img3-title1">
+                <p>#Design #Movie</p>
+                <div class="editor-sub-span">
+                <span><ion-icon name="time-outline"></ion-icon>6 mins read</span>
+                </div>
+              </div>
+              <h3>Self-observation is the first step of inner unfolding</h3>
+              <div class="editor-sub-img-tag1">
+                <img src="./assets/images/tag1.png" alt="" />
+                <div class="editor-sub-img-tag-p">
+                  <h4>Adunni</h4>
+                  <p>30 Jan 2022</p>
+                </div>
+                <div class="editor-sub-img-tag-date1">
+                  <p>Read more</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="editor-button">
+          <button>Explore more</button>
+        </div>
+      </div>
+    </div>
+
+    <!--  Popular tags-->
+    <div class="popular-tags">
+      <div class="popular-tag">
+        <h1>Popular Tags</h1>
+        <p>Most searched keywords</p>
+        <div class="popular-tag-sub-alls">
+          <div class="popular-tag-sub">
+            <div class="popular-tag-sub-img1">
+              <img src="./assets/images/tag11.png" alt="" />
+              <h4>Nature</h4>
+            </div>
+          </div>
+          <div class="popular-tag-sub1">
+            <div class="popular-tag-sub-img2">
+              <img src="./assets/images/tag12.png" alt="" />
+              <h4>Business</h4>
+            </div>
+          </div>
+          <div class="popular-tag-sub2">
+            <div class="popular-tag-sub-img3">
+              <img src="./assets/images/tag5.png" alt="" />
+              <h4>Food</h4>
+            </div>
+          </div>
+          <div class="popular-tag-sub3">
+            <div class="popular-tag-sub-img4">
+              <img src="./assets/images/tag3.png" alt="" />
+              <h4>LifeStyle</h4>
+            </div>
+          </div>
+          <div class="popular-tag-sub4">
+            <div class="popular-tag-sub-img5">
+              <img src="./assets/images/tag2.png" alt="" />
+              <h4>Culture</h4>
+            </div>
+          </div>
+          <div class="popular-tag-sub5">
+            <div class="popular-tag-sub-img6">
+              <img src="./assets/images/tag9.png" alt="" />
+              <h4>Interior</h4>
+            </div>
+          </div>
+          <div class="popular-tag-sub6">
+            <div class="popular-tag-sub-img7">
+              <img src="./assets/images/tag4.png" alt="" />
+              <h4>Fashion</h4>
+            </div>
+          </div>
+          <div class="popular-tag-sub7">
+            <div class="popular-tag-sub-img8">
+              <img src="./assets/images/tag6.png" alt="" />
+              <h4>Space</h4>
+            </div>
+          </div>
+          <div class="popular-tag-sub7">
+            <div class="popular-tag-sub-img8">
+              <img src="./assets/images/tag1.png" alt="" />
+              <h4>Travel</h4>
+            </div>
+          </div>
+          <div class="popular-tag-sub7">
+            <div class="popular-tag-sub-img8">
+              <img src="./assets/images/tag8.png" alt="" />
+              <h4>Minnimal</h4>
+            </div>
+          </div>
+          <div class="popular-tag-sub7">
+            <div class="popular-tag-sub-img8">
+              <img src="./assets/images/tag7.png" alt="" />
+              <h4>animal</h4>
+            </div>
+          </div>
+          <div class="popular-tag-sub7">
+            <div class="popular-tag-sub-img8">
+              <img src="./assets/images/tag10.png" alt="" />
+              <h4>Plane</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Recents Posts-->
+    <div class="recent-posts" id="recentpost">
+      <div class="recent-post">
+        <h1>Recent posts</h1>
+        <p>Don't miss the latest trends</p>
+        <div class="recent-post-sub">
+          <div class="recent-post-sub-part1">
+            <img
+              width="70%"
+              src="./assets/images/recent-post-1.jpg"
+              alt="Helpful Tips for Working from Home as a Freelancer"
+            />
+            <div class="recent-post-sub-p">
+              <div class="working-tag">
+                <h3>Working Tips</h3>
+              </div>
+              <div class="recent-post-h2">
+              <h2>Helpful Tips for Working from Home as a Freelancer</h2>
+              </div>
+              <p>
+                These tips can help freelancers maintain productivity, achieve work-life balance, and suceed in their careers
+              </p>
+              <div class="recent-post-sub-p1">
+                <div class="recent-post-sub-p1-part">
+                <p># Travel </p>
+                <p># Tech</p>
+                </div>
+                <div class="recent-post-span">
+                <span><ion-icon name="time-outline"></ion-icon>3 mins read</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="recent-post-sub-part1">
+            <img
+              width="70%"
+              src="./assets/images/recent-post-2.jpg"
+              alt="Helpful Tips for Working from Home as a Freelancer"
+            />
+            <div class="recent-post-sub-p">
+              <div class="working-tag">
+                <h3>Working Tips</h3>
+              </div>
+              <div class="recent-post-h2">
+              <h2>How to write a clean code as web developer</h2>
+              </div>
+              <p>
+               These tips  can help you work efficiently, deliver high-quality projects,
+               and stay competitive in the field
+              </p>
+              <div class="recent-post-sub-p1">
+                <div class="recent-post-sub-p1-part">
+                <p># Coding </p>
+                <p># Tech</p>
+                </div>
+                <div class="recent-post-span">
+                <span><ion-icon name="time-outline"></ion-icon>3 mins read</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="recent-post-sub-part1">
+            <img
+              width="70%"
+              src="./assets/images/recent-post-3.jpg"
+              alt="Helpful Tips for Working from Home as a Freelancer"
+            />
+            <div class="recent-post-sub-p">
+              <div class="working-tag">
+                <h3>Working Tips</h3>
+              </div>
+              <div class="recent-post-h2">
+              <h2>Prioritize safety, while on an adventures</h2>
+              </div>
+              <p>
+               These are tips can help explorers navigate challenges, ensure safety, and achieve their goals
+              </p>
+              <div class="recent-post-sub-p1">
+                <div class="recent-post-sub-p1-part">
+                <p># Travel</p>
+                <p> # Lifestyle</p>
+                </div>
+                <div class="recent-post-span">
+                <span><ion-icon name="time-outline"></ion-icon>3 mins read</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="recent-post-sub-part1">
+            <img
+              width="70%"
+              src="./assets/images/recent-post-4.jpg"
+              alt="Helpful Tips for Working from Home as a Freelancer"
+            />
+            <div class="recent-post-sub-p">
+              <div class="working-tag">
+                <h3>Working Tips</h3>
+              </div>
+              <div class="recent-post-h2">
+              <h2>Here is a tips in finding your way into Tech Community</h2>
+              </div>
+              <p>
+                This can help you find and connect with developer communties that align with your interest and goals
+              </p>
+              <div class="recent-post-sub-p1">
+                <div class="recent-post-sub-p1-part">
+                <p># Tech </p>
+                  <p> # Lifestyle</p>
+                </div>
+                <div class="recent-post-span">
+                <span><ion-icon name="time-outline"></ion-icon>3 mins read</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="recent-post-sub-part1">
+            <img
+              width="70%"
+              src="./assets/images/recent-post-5.jpg"
+              alt="Helpful Tips for Working from Home as a Freelancer"
+            />
+            <div class="recent-post-sub-p">
+              <div class="working-tag">
+                <h3>Working Tips</h3>
+              </div>
+              <div class="recent-post-h2">
+              <h2>Looking into being Researcher or find out what a Researcher do</h2>
+              </div>
+              <p>
+                These tips can help Researcher produce high-quality work, contribute to their field, and achieve their goals
+              </p>
+              <div class="recent-post-sub-p1">
+                <div class="recent-post-sub-p1-part">
+                <p># Travel</p>
+                <p># Science</p>
+                </div>
+                <div class="recent-post-span">
+                <span><ion-icon name="time-outline"></ion-icon>3 mins read</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="recent-post-count">
+            <div class="recent-post-count-1">
+              <h2>&#8592</h2>
+            </div>
+            <div class="recent-post-count-21">
+              <h2>1</h2>
+            </div>
+            <div class="recent-post-count-2">
+              <h2>2</h2>
+            </div>
+            <div class="recent-post-count-3">
+              <h2>3</h2>
+            </div>
+            <div class="recent-post-count-4">
+              <h2>...</h2>
+            </div>
+            <div class="recent-post-count-5">
+              <h2>&#8594</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- popular post-->
+      <div class="popular-post-wrap">
+      <div class="popular-posts">
+        <div class="popular-post">
+          <h1>Popular Posts</h1>
+          <hr />
+          <div class="popular-post-sub">
+            <div class="popular-post-sub-part">
+              <div class="popular-post-part-p-w">
+                <div class="popular-post-sub-img">
+                  <img src="./assets/images/popular-post-1.jpg" alt="" />
+                </div>
+                <div class="popular-post-part-p">
+                  <h2>Creating is a privilege but it’s also a gift</h2>
+                  <div class="popular-post-part-p1">
+                    <p>15 mins read</p>
+                    <p>15 April 2022</p>
+                  </div>
+                  <hr />
+                </div>
+              </div>
+              <div class="popular-post-part-p-w">
+                <div class="popular-post-sub-img">
+                  <img src="./assets/images/popular-post-2.jpg" alt="" />
+                </div>
+                <div class="popular-post-part-p">
+                  <h2>Being unique is better than being perfect</h2>
+                  <div class="popular-post-part-p1">
+                    <p>15 mins read</p>
+                    <p>15 April 2022</p>
+                  </div>
+                  <hr />
+                </div>
+              </div>
+              <div class="popular-post-part-p-w">
+                <div class="popular-post-sub-img">
+                  <img src="./assets/images/popular-post-3.jpg" alt="" />
+                </div>
+                <div class="popular-post-part-p">
+                  <h2>Everyday, in every city and town across the country</h2>
+                  <div class="popular-post-part-p1">
+                    <p>15 mins read</p>
+                    <p>15 April 2022</p>
+                  </div>
+                  <hr />
+                </div>
+              </div>
+              <div class="popular-post-part-p-w">
+                <div class="popular-post-sub-img">
+                  <img src="./assets/images/popular-post-4.jpg" alt="" />
+                </div>
+                <div class="popular-post-part-p">
+                  <h2>Your voice, your mind, your story, your vision</h2>
+                  <div class="popular-post-part-p1">
+                    <p>15 mins read</p>
+                    <p>15 April 2022</p>
+                  </div>
+                  <hr />
+                </div>
+              </div>
+              <div class="popular-post-part-p-w">
+                <div class="popular-post-sub-img">
+                  <img src="./assets/images/popular-post-1.jpg" alt="" />
+                </div>
+                <div class="popular-post-part-p">
+                  <h2>Creating is a privilege but it’s also a gift</h2>
+                  <div class="popular-post-part-p1">
+                    <p><ion-icon name="time"></ion-icon>15 mins read</p>
+                    <p>15 April 2022</p>
+                  </div>
+                  <hr />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Last Comment -->
+      <div class="last-comments">
+        <div class="last-comment">
+          <h1>Last Comment</h1>
+          <hr />
+        <div class="last-comment-sub">
+          <div class="last-comment-sub-part">
+            <h3>
+              “ Thank you for sharing your story, it really resonated with me “
+            </h3>
+          </div>
+            <div class="last-comment-sub-part-img">
+            <div class="last-comment-sub-part-img1">
+              <div class="last-comment-sub-part-img1-p">
+            <img src="./assets/images/author-3.png" alt="">
+            <div class="last-comment-sub-part-p">
+            <h5>Jane Cooper</h5>
+            <p>15 April 2023</p>
+            </div>
+            </div>
+            <hr>
+            </div>
+            <div class="last-comment-sub-part-img2">
+              <div class="last-comment-sub-part1">
+              <h3>
+                “This remind me of my journey great to see others going through similar things “
+              </h3>
+              </div>
+              <div class="last-comment-sub-part-img1-p">
+            <img src="./assets/images/author-7.png" alt="">
+            <div class="last-comment-sub-part-p2">
+            <h5>Katen Doe</h5>
+            <p>5 December 2024</p>
+            </div>
+            </div>
+            <hr>
+            </div>
+            <div class="last-comment-sub-part-img3">
+              <div class="last-comment-sub-part2">
+              <h3>
+                “ I love how honest and open you are about your experiences“
+              </h3>
+              </div>
+              <div class="last-comment-sub-part-img1-p">
+            <img src="./assets/images/author-8.png" alt="">
+            <div class="last-comment-sub-part-p3">
+            <h5>Barbara Cartland</h5>
+            <p>10 March 2022</p>
+            </div>
+            </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+      <!-- Footer -->
+      <div class="footers">
+        <div class="footer">
+          <div class="footer-sub">
+            <div class="footer-sub-p1">
+            <div class="foot-sub-p">
+            <img width="20%" src="./assets/images/favicon.svg" alt="">
+            <h1>Wren </h1>
+              </div>
+            <div class="footer-sub-logo-p">
+            <h3>Follow us on instagram</h3>
+            </div>
+            </div>
+            <div class="footer-sub-part">
+              <img width="100%" src="./assets/images/insta-post-1.png" alt="">
+              <img width="100%" src="./assets/images/insta-post-2.png" alt="">
+              <img width="100%" src="./assets/images/insta-post-3.png" alt="">
+              <img width="100%" src="./assets/images/insta-post-4.png" alt="">
+              <img width="100%" src="./assets/images/insta-post-5.png" alt="">
+              <img width="100%" src="./assets/images/insta-post-6.png" alt="">
+              <img width="100%" src="./assets/images/insta-post-7.png" alt="">
+              <img width="100%" src="./assets/images/insta-post-8.png" alt="">
+              <img width="100%" src="./assets/images/insta-post-9.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+
+      <!-- last part-->
+      <div class="last-parts" id="contact">
+        <div class="last-part">
+          <div class="last-part1">
+          <div class="last-part-all">
+          <div class="last-part-head">
+            <img src="./assets/images/favicon.svg" alt="">
+            <h1>Wren</h1>
+          </div>
+          <div class="last-part-p">
+            <p>MayorTech blog is digital haven, where tecchnology, travel and art converge. from coding tips to travel guides and lifestyle inspiration.</p>
+            <h3>Address</h3>
+            <div class="last-part-p-addr">
+            <p>17 Omolafe Street</p>
+              <p>Off Odogunyo, Ikorodu Lagos.</p>
+            </div>
+          </div>
+          </div>
+          <div class="last-part-all1">
+          <div class="last-part-head">
+            <h1>Categories</h1>
+          </div>
+          <div class="last-part-p-all">
+          <div class="last-part-p1">
+            <h5>Action</h5>
+            <h5>Business</h5>
+            <h5>Adventure</h5>
+            <h5>Canada</h5>
+            <h5>America</h5>
+            <h5>Curiosity</h5>
+          </div>
+          <div class="last-part-p3">
+            <h5>Animal</h5>
+            <h5>Dental</h5>
+            <h5>Biology</h5>
+            <h5>Design</h5>
+            <h5>Breakfast</h5>
+            <h5>Dessert</h5>
+          </div>
+          </div>
+          </div>
+          <div class="last-part-all2">
+          <div class="last-part-head">
+            <h1>Newsletter</h1>
+          </div>
+          <div class="last-part-p4">
+            <h5>Sign up to be first to receive the latest stories inspiring us, case studies, and industry news.</h5>
+          <input type="name" placeholder="Your Name">
+          <input id="email" type="email" placeholder="Email Address">
+          <button id="EmailBtn">Subscribe</button>
+          </div>
+          </div>
+          </div>
+          <div class="last-part-bottom-all">
+          <div class="last-part-bottoms">
+            <div class="last-part-bottom-h3">
+              <h3>&copy Developed by</h3>
+            </div>
+            <h3>MayorTech</h3>
+          </div>
+          <div class="last-part-bottom">
+            <h5><ion-icon name="logo-github"></ion-icon>Github</h5>
+            <h5><ion-icon name="logo-linkedin"></ion-icon>LinkedIn</h5>
+            <h5><ion-icon name="logo-instagram"></ion-icon>Instagram</h5>
+          </div>
+        </div>
+        </div>
+      </div>
+      <!-- Back to top-->
+      <div class="back-tops">
+        <button id="backTopBtn">&#8593</button>
+
+        </div>
+      </div>
+  </body>
+</html>
